@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>PLATAFORMAS DE PUBLICACIÓN Y DISTRIBUCIÓN</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Plataformas de Publicación y Distribución</h1>
-        
+
         <div class="video-block">
             <h2>Vídeo original (raw_video.mp4)</h2>
-            <video class="video-responsive" controls poster="image.png">
-                <source src="public/raw_video.mp4" type="video/mp4">
+            <video width="360" height="640" controls autoplay loop muted poster="image.png" preload="auto">
+                <source src="raw_video.mp4" type="video/mp4">
                 Tu navegador no soporta la etiqueta de vídeo.
             </video>
         </div>
-        
+
         <div class="video-block">
             <h2>Vídeo MP4 H.264 AAC (video_mp4_codec_h.264_aac_lav.mp4)</h2>
             <video class="video-responsive" controls poster="image.png">
@@ -24,7 +26,7 @@
                 Tu navegador no soporta la etiqueta de vídeo.
             </video>
         </div>
-        
+
         <div class="video-block">
             <h2>Vídeo WebM VP9 Vorbis (video_webm_vp9_vorbis.webm)</h2>
             <video class="video-responsive" controls poster="image.png">
@@ -35,4 +37,5 @@
     </div>
     <script src="source/scripts.js"></script>
 </body>
+
 </html>
