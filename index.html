@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PLATAFORMAS DE PUBLICACIÓN Y DISTRIBUCIÓN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .video-block {
+            margin-bottom: 32px;
+            text-align: center;
+        }
+        .video-block h2 {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        video {
+            border-radius: 8px;
+            background: #000;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.10);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Plataformas de Publicación y Distribución</h1>
+        
+        <div class="video-block">
+            <h2>Vídeo original (raw_video.mp4)</h2>
+            <video width="640" height="360" controls>
+                <source src="raw_video.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de vídeo.
+            </video>
+        </div>
+        
+        <div class="video-block">
+            <h2>Vídeo MP4 H.264 AAC (video_mp4_codec_h.264_aac_lav.mp4)</h2>
+            <video width="360" height="640" controls>
+                <source src="video_mp4_codec_h.264_aac_lav.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de vídeo.
+            </video>
+        </div>
+        
+        <div class="video-block">
+            <h2>Vídeo WebM VP9 Vorbis (video_webm_vp9_vorbis.webm)</h2>
+            <video width="360" height="640" controls>
+                <source src="video_webm_vp9_vorbis.webm" type="video/webm">
+                Tu navegador no soporta la etiqueta de vídeo.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
